@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="noformejums.css">
+    <title>Kere tev jazime</title>
+</head>
+<body>
+    <div id = "saturs">
+        <div id = "rinda1" style="margin-top: 1%;">
+            <div id = "rinda1Kolonna1" style="width: 30%; text-align: left;">
+                <button id = "dzest">Dzēst</button>
+            </div>
+            <div id = "rinda1Kolonna2" style="border: 2px solid; padding: 1%; width: 30%; text-align: center;">
+                <div>
+                    <button id = "otaZimet">🖌</button>
+                    <button id = "kvZimet">▭</button>
+                    <button>△</button>
+                    <button>&#9675</button>
+                    <button>T</button>
+                </div>
+            </div>
+            <div id = "rinda1Kolonna3" style="width: 30%; text-align: end;">
+                <button id = "saglabat">Saglabāt</button>
+            </div>
+        </div>
+        <div id = "rinda2" style="display: flex; justify-content: center;">
+            <div id = "rinda2Kolonna1" style="width: 10%; margin-top: 7%;">
+                <div style="text-align: center; border: 2px solid; padding-top: 5%; padding-bottom: 5%;">
+                    <label for="laukumaKrasa">Laukuma krāsa</label><br>
+                    <input id = "laukumaKrasa"type="color"> <br> <br>
+                    <label for="figuruKrasa">Figūru krāsa</label><br>
+                    <input id = "figuruKrasa"type="color"> <br> <br>
+                    <label for="konturasKrasa">Kontūras krāsa</label> <br>
+                    <input id = "konturasKrasa" type="color"> <br> <br>
+                    <label for="tekstaKrasa">Teksta krāsa</label><br>
+                    <input id = "tekstaKrasa"type="color"> <br> <br>
+                    <label for="otasKrasa">Otas krāsa</label><br>
+                    <input id = "otasKrasa"type="color"> <br>
+                </div>
+            </div>
+            <div id = "rinda2Kolonna2" style="width: 60%; margin: 5%;">
+                <canvas id = "laukums" style="border: 2px solid"></canvas>
+            </div>
+            <div id = "rinda2Kolonna3" style="width: 15%;">
+                <div>
+                    <label for="otasBiezums">Otas biezums</label>
+                    <input id = "otasBiezums" type="number"> <br>
+                    <label for="konturasBiezums">Kontūras biezums</label>
+                    <input id = "konturasBiezums" type="number"> <br>
+                    <p>Četrstūriem:</p>
+                    <label for="cetrsturaX">X</label>
+                    <input id = "cetrsturaX" type="number"> <br>
+                    <label for="cetrsturaY">Y</label>
+                    <input id = "cetrsturaY" type="number"> <br>
+                    <label for="cetrsturaPlatums">Platums</label>
+                    <input id = "cetrsturaPlatums" type="number"> <br>
+                    <label for="cetrsturaAugstums">Augstums</label>
+                    <input id = "cetrsturaAugstums" type="number"> <br>
+                    <p>Aplim:</p>
+                    <label for="aplimX">X</label>
+                    <input id = "aplimX" type="number"> <br>
+                    <label for="aplimY">Y</label>
+                    <input id = "aplimY" type="number"> <br>
+                    <label for="aplimR">Rādiuss</label>
+                    <input id = "aplimR" type="number"> <br>
+                    <p>Trijstūrim:</p>
+                    <label for="trijsturimX1">X1</label>
+                    <input id = "trijsturimX1" type="number"> <br>
+                    <label for="trijsturimY1">Y1</label>
+                    <input id = "trijsturimY1" type = "number"> <br>
+                    <label for="trijsturimX2">X2</label>
+                    <input id = "trijsturimX2" type="number"> <br>
+                    <label for="trijsturimY2">Y2</label>
+                    <input id = "trijsturimY2" type = "number"> <br>
+                    <label for="trijsturimX3">X3</label>
+                    <input id = "trijsturimX3" type="number"> <br>
+                    <label for="trijsturimY3">Y3</label>
+                    <input id = "trijsturimY3" type = "number"> <br>
+                    <p>Tekstam:</p>
+                    <label for="tekstaT">Teksts</label>
+                    <input  id = "tekstaT"type="text"> <br>
+                    <label for="tekstamX">X</label> 
+                    <input id = "tekstamX" type="number"> <br>
+                    <label for="tekstamY">Y</label> 
+                    <input id = "tekstamY" type="number"> <br>
+                    <label for="tekstamL">Izmērs</label>
+                    <input id = "tekstamL" type="number"> <br>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="speleKods.js"></script>
+</body>
+</html>

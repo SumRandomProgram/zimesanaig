@@ -1,0 +1,40 @@
+#saturs{
+    border: 2px solid black;
+    width: 70%;
+}
+#rinda1{
+    display: flex;
+    justify-content: center;
+}
+#rinda1Kolonna2 button{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    font-size: large;
+}
+#rinda1Kolonna3 button{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
+#rinda1Kolonna1 button{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
+#rinda2Kolonna3{
+    text-align: end;
+    border: 2px solid;
+    padding: 1% 1% 1% 1%;
+    margin-bottom: 5%;
+    margin-top: 7%;
+    font-weight: bold;
+    height: 70%;
+}
+#rinda2Kolonna3 input{
+    width: 50px;
+}
+
+#rinda2Kolonna3 label{
+    font-size: small;
+}
