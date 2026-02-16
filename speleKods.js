@@ -36,8 +36,8 @@ saglabat.addEventListener("click", function(){
 })
 // Nolasa peles kursora atrašanās vietu
 function pozicija(event){
-    platums = event.clientX - 195
-    augstums = event.clientY - 145
+    platums = event.clientX - 180
+    augstums = event.clientY - 167
 }
 
 // Sāk zīmēšanu
